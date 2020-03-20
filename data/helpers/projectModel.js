@@ -6,8 +6,8 @@ const mappers = require('./mappers.js');
 module.exports = {
     get,
     insert,
-    update,
-    remove,
+    // update,
+    // remove,
     getProjectTasks,
     getProjectResources,
 };

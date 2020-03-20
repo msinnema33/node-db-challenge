@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 
-const ProjectRouter = require('./projects/projectsRouter.js');
+const ProjectRouter = require('./projects/projectRouter.js');
 const ResourcesRouter = require('./resources/resourcesRouter.js');
 const TasksRouter = require('./tasks/tasksRouter.js');
 
