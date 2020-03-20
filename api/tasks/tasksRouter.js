@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Tasks = require('../../data/helpers/tasksModel.js');
+const Tasks = require('../../data/helpers/taskModel');
 
 router.get('/', (req, res) => {
     Tasks.get()

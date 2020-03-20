@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Resources = require('../../data/helpers/resourceModel.js');
+const Resources = require('../../data/helpers/resoureceModel');
 
 router.get('/', (req, res) => {
     Resources.get()
