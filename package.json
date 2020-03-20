@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/msinnema33/node-db-challenge#readme",
   "devDependencies": {
-    "nodemon": "^2.0.2",
-    "knex-cleaner": "^1.3.0"
+    "knex-cleaner": "^1.3.0",
+    "nodemon": "^2.0.2"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -30,7 +30,6 @@
     "express": "^4.17.1",
     "helmet": "^3.21.3",
     "knex": "^0.20.12",
-    "knex-cleaner": "^1.3.0",
     "sqlite3": "^4.1.1"
   }
 }
