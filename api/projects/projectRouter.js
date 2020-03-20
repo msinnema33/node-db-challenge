@@ -4,7 +4,7 @@ const projectModel = require('../../data/helpers/projectModel');
 const Tasks = require('../../data/helpers/taskModel'); 
 
 router.get('/', (req, res) => {
-
+ 
     projectModel.get()
     .then(projects => {
         res.status(200).json(projects)

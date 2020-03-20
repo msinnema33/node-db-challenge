@@ -12,9 +12,9 @@ server.use(helmet());
 server.use(cors());
 server.use(express.json());
 
-server.use('./api/projects', ProjectRouter);
-server.use('./api/resources', ResourcesRouter);
-server.use('./api/tasks', TasksRouter);
+server.use('/api/projects', ProjectRouter);
+server.use('/api/resources', ResourcesRouter);
+server.use('/api/tasks', TasksRouter);
 
 server.get('/', (req, res) => {
     res.status(200).json({ api: "API is up and running!!"});
